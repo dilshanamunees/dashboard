@@ -1,0 +1,193 @@
+body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li>a {
+    padding: 15px 20px;
+}
+
+body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li>a {
+    padding: 8px 20px;
+}
+
+body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li>a i {
+    font-size: 1.45rem;
+}
+
+body[data-sidebar-size=sm] .vertical-menu #sidebar-menu>ul>li>a i {
+    font-size: 1.1rem;
+}
+
+button.serial_no.slbtn.btn.btn-success.btn-sm,
+button.serial_no.slbtn.btn.btn-danger.btn-sm {
+    margin: 2px;
+}
+
+.form-control-sm {
+    border-radius: 0.2rem;
+}
+
+.form-control-sm {
+    border: 1px solid #ced4da;
+}
+
+[data-tooth_nr] path.st0 {
+    fill: #FFFFFF;
+}
+
+[data-tooth_nr] path.st1 {
+    fill: #020203;
+}
+
+[data-tooth_nr] path.st2 {
+    fill: #FFFFFF;
+}
+
+[data-tooth_nr] path.st3 {
+    fill: #FFFFFF;
+}
+
+[data-tooth_nr] path.st4 {
+    fill: #FFFFFF;
+}
+
+[data-tooth_nr] path.st5 {
+    fill: #FFFFFF;
+}
+
+[data-tooth_nr] path.st6 {
+    fill: none;
+    stroke: #020203;
+    stroke-width: 0.5727;
+    stroke-miterlimit: 10;
+}
+
+.fa_icon {
+    font-size: 1.3rem;
+}
+
+:root {
+    --bs-tooth-1: #FFFF00;
+    --bs-tooth-2: #FFFF00;
+    --bs-tooth-3: #FFAA00;
+    --bs-tooth-4: #FFAA00;
+    --bs-tooth-5: #FF2222;
+    --bs-tooth-6: #FF2222;
+}
+
+.numbers td p {
+    margin-bottom: 0;
+    font-size: 8pt;
+}
+
+.accordion-body {
+    display: inline-flex;
+    padding: 0px;
+}
+
+ul.group_to_toggle {
+    padding-left: 5px;
+}
+
+.btn-sm {
+    font-size: 0.56562rem;
+}
+
+.tooth_img td img {
+    width: 90%;
+}
+
+.tooltip {
+    background: #555be1;
+}
+
+.tooltip-inner {
+    background-color: transparent;
+}
+
+.app-status {
+    height: 12px;
+    width: 12px;
+    left: 0px;
+    top: 0px;
+    border-width: 0px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.app-status-label {
+    color: rgb(55, 61, 63);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+
+.app-pending {
+    background: var(--bs-blue);
+}
+
+.app-arrived {
+    background: var(--bs-green);
+}
+
+.app-cancelled {
+    background: var(--bs-dark);
+}
+
+.app-treating {
+    background: var(--bs-yellow);
+}
+
+.app-noshow {
+    background: var(--bs-gray);
+}
+
+.app-completed {
+    background: var(--bs-red);
+}
+
+.fc-event {
+    line-height: 1.0;
+}
+
+.card {
+    border: 0px !important;
+}
+
+body[data-sidebar-size=sm] .vertical-menu {
+    position: absolute;
+    width: 40px !important;
+    height: 100%;
+    z-index: 5;
+}
+
+input[type="range"] {
+    background-color: blue !important;
+}
+
+.vertical-menu {
+    top: 30px !important;
+    background-color: #FFFFFF !important;
+    border-right: 0px !important;
+    padding: 15px;
+}
+
+.page-content {
+    padding: calc(50px + 20px) calc(20px / 2) 2px calc(20px / 2) !important;
+}
+
+.card-header {
+    border-bottom: 0px !important;
+}
+
+.avatar-xl {
+    height: 7rem;
+    width: 7rem;
+}
+
+body[data-sidebar-size=sm] {
+    min-height: 0px !important;
+}
+
+.footer {
+    position: fixed !important;
+    background-color: rgb(188, 188, 219);
+}

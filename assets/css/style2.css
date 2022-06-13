@@ -1,0 +1,154 @@
+.mobile-menu-container {
+    padding: 20px;
+    background-color: #23282D;
+    display: none;
+}
+
+.mobile-menu-trigger {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 52px;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mobile-menu {
+    display: none;
+    /*background-color: #32373C;*/
+}
+
+.mobile-menu .main-menu li {
+    line-height: 60px;
+    background-color: #0289BD;
+}
+
+.mobile-menu .main-menu > li:first-child {
+    margin-top: 0px;
+}
+
+.mobile-menu .main-menu > li img {
+    /*padding-top: 17px;*/
+}
+
+.mobile-menu .main-menu {
+    border-bottom: 1px solid #32373c;
+    border-left: 1px solid #32373c;
+    border-right: 1px solid #32373c;
+}
+
+/* Responsive */
+@media (max-width: 1216px)
+{
+    #page-wrap-logged-in {
+        min-width: 1000px;
+    }
+
+    .mobile-menu-container {
+        display: block;
+        position: fixed;
+/*        width: 100%; */
+        z-index: 95;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    .mobile-menu {
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        overflow-y: scroll;
+        left: 0;
+        right: 0;
+        padding: 0 15px 15px 15px;
+        z-index: 97;
+    }
+    
+    .mobile-assistance-button {
+        position: absolute;
+        right: 80px;
+        top: 15px;
+        z-index: 96;
+        background-color: #32373C;
+        padding: 12px 0 12px 0;
+        text-align: center;
+        width: 200px;
+    }
+    
+    #inside {
+        padding-top: 80px !important;
+    }
+
+    #left-sidebar {
+        display: none;
+    }
+    
+    #content-title .top_left_corner {
+        display: none;
+        /*
+        left: auto;
+        right: 10px;
+        top: -85px;
+        */
+    }
+
+    #content {
+        margin-left: 0 !important;
+        padding-left: 5px;
+        padding-top: 0px;
+        margin-top: 0;
+    }
+    
+    /*
+    #content-title {
+        padding-left: 5px;
+        position: fixed;
+        margin-bottom: 15px;
+        top: 120px;
+    }
+    */
+    
+    #content-title {
+        position: relative;
+        top: 0;
+        margin-bottom: 10px;
+        margin-left: -5px;
+        padding-left: 5px;
+    }
+    
+    #content-content {
+        margin-top: 0px;
+    }
+}
+
+/*
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+*/
+
+@media (max-width: 767px)
+{
+    /*
+    #content {
+        margin-top: -5px;
+    }
+    */
+}
+
+@media (max-width: 422px)
+{
+    .mobile-assistance-button {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 10px;
+    }
+    
+    #content {
+        margin-top: 55px;
+    }
+}
